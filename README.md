@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Funcionalidad de la semana 5
 
 ## Historia de usuario (HU-02)
@@ -33,3 +34,6 @@ Ejecuta todas las pruebas automatizadas con:
 ```bash
 npm test
 ```
+=======
+# seminario-sigrad-semana5
+>>>>>>> 672cdaa975da8b2e53a5cb6413378a3c1b4b7774
