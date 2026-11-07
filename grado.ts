@@ -13,17 +13,13 @@ export function calcularEstadoGeneralGrado(
     return "Pendiente";
   }
 
-  let todasAprobadas = true;
-
-  for (let i = 0; i < encuestas.length; i += 1) {
-    if (encuestas[i].estado === "Rechazado") {
-      return "Rechazado";
-    }
-
-    if (encuestas[i].estado !== "Aprobado") {
-      todasAprobadas = false;
-    }
+  if (encuestas.some((encuesta) => encuesta.estado === "Rechazado")) {
+    return "Rechazado";
   }
 
-  return todasAprobadas ? "Aprobado" : "Pendiente";
+  if (encuestas.some((encuesta) => encuesta.estado !== "Aprobado")) {
+    return "Pendiente";
+  }
+
+  return "Aprobado";
 }
