@@ -1,0 +1,19 @@
+{
+  "name": "seminariovs",
+  "version": "1.0.0",
+  "description": "Como coordinador, quiero que el sistema calcule el estado general de grado basándose en las encuestas de Paz y Salvo, para determinar si un estudiante puede graduarse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.15",
+    "typescript": "^5.9.3"
+  }
+}
